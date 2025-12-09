@@ -13,7 +13,7 @@ body {
   background-color: #ffffff;
   max-width: 400px;
   width: 90%;
-  margin-top: 40px;
+  margin: 40px auto;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -25,89 +25,79 @@ body {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 auto 10px;
+  margin: 0 auto;
 }
 
 .logo {
-  width: 150px;
-  height: auto;
-  margin: 10px auto;
+  width: 160px;
+  margin: 10px auto 20px auto;
 }
 
 h1 {
-  font-size: 1.2em;
-  margin: 10px 0 20px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 
-.cta-buttons button {
+.button-group button {
   display: block;
   width: 100%;
   padding: 12px;
   margin: 8px 0;
   border: none;
-  border-radius: 6px;
-  font-size: 1em;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 1rem;
   cursor: pointer;
-  transition: opacity 0.2s ease;
 }
 
-.cta-buttons button#chat-btn    { background-color: #0066cc; color: #fff; }
-.cta-buttons button#sms-btn     { background-color: #007bff; color: #fff; }
-.cta-buttons button#whatsapp-btn { background-color: #25d366; color: #fff; }
-.cta-buttons button#messenger-btn { background-color: #0084ff; color: #fff; }
-.cta-buttons button#call-btn    { background-color: #34b7f1; color: #fff; }
-
-.cta-buttons button:hover,
-.eligibility-btn:hover {
+.button-group button:hover {
   opacity: 0.9;
 }
 
-.cms-section {
+h2 {
+  font-size: 1.2rem;
   margin-top: 20px;
-  text-align: left;
 }
 
-.cms-section h2 {
-  font-size: 1.1em;
-  margin-bottom: 10px;
+p {
+  font-size: 0.9rem;
+  margin: 10px 0;
 }
 
-.cms-section p {
-  font-size: 0.9em;
-  margin: 8px 0;
-}
-
-.cms-section .disclaimer {
-  font-size: 0.8em;
-  color: #555;
+.disclaimer p {
+  font-size: 0.8rem;
+  color: #555555;
 }
 
 .consent {
-  display: flex;
-  align-items: flex-start;
-  margin: 15px 0;
+  text-align: left;
+  margin: 20px 0;
 }
 
 .consent input {
   margin-right: 8px;
-  transform: scale(1.2);
 }
 
-.eligibility-btn {
+.cta {
   display: block;
   width: 100%;
-  padding: 12px;
-  background-color: #ff9800;
-  color: #fff;
+  padding: 14px;
+  margin-top: 10px;
+  background-color: #f48120;
+  color: #ffffff;
+  font-size: 1rem;
   border: none;
-  border-radius: 6px;
-  font-size: 1em;
+  border-radius: 4px;
   cursor: pointer;
-  transition: opacity 0.2s ease;
 }
 
-.footer-note {
-  font-size: 0.75em;
-  color: #666;
-  margin-top: 15px;
+.cta:hover {
+  opacity: 0.9;
+}
+
+footer p {
+  font-size: 0.7rem;
+  color: #666666;
+  margin-top: 20px;
 }
