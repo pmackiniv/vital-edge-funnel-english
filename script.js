@@ -5,5 +5,4 @@ function checkConsent(event) {
     alert("Please confirm your consent before continuing.");
     return false;
   }
-  return true;
 }
