@@ -8,7 +8,7 @@
 
   <!-- Social Preview -->
   <meta property="og:title" content="Marketplace Health Coverage Help" />
-  <meta property="og:description" content="Chat or text with me live to explore Marketplace coverage options for 2026." />
+  <meta property="og:description" content="Email, text, or call me to explore Marketplace coverage options for 2026." />
   <meta property="og:image" content="https://pmackiniv.github.io/vital-edge-funnel-english/assets/patrick-mackin-headshot.png" />
   <meta property="og:url" content="https://pmackiniv.github.io/vital-edge-funnel-english/" />
   <meta property="og:type" content="website" />
@@ -29,17 +29,16 @@
 
     <h1>Patrick Mackin IV — Licensed Enrollment Specialist</h1>
 
-    <!-- CTAs -->
-    <button onclick="checkConsent(event)">Chat with me</button>
-    <button onclick="checkConsent(event)">Text / SMS</button>
-    <button onclick="checkConsent(event)">WhatsApp</button>
-    <button onclick="checkConsent(event)">Facebook Messenger</button>
-    <button onclick="checkConsent(event)">Call Me</button>
+    <!-- Contact Buttons -->
+    <button onclick="if(checkConsent(event)!== false) { window.location.href='mailto:pmackiniv27@icloud.com'; }">Email</button>
+    <button onclick="if(checkConsent(event)!== false) { window.location.href='sms:+13522148879'; }">Text / SMS</button>
+    <button onclick="if(checkConsent(event)!== false) { window.location.href='https://wa.me/13522148879'; }">WhatsApp</button>
+    <button onclick="if(checkConsent(event)!== false) { window.location.href='tel:+13522148879'; }">Call Me</button>
 
     <h2>Need Marketplace Coverage?</h2>
 
     <p>
-      Chat or text with me live to explore Marketplace health-insurance options for 2026 and check eligibility instantly.
+      Email, text, or call me to explore Marketplace health-insurance options for 2026 and check eligibility instantly.
     </p>
 
     <p class="disclaimer">
@@ -56,7 +55,7 @@
       I authorize Vital Edge Insurance to contact me.
     </label>
 
-    <button class="cta-main" onclick="checkConsent(event)">Check Eligibility Instantly</button>
+    <button class="cta-main" onclick="if(checkConsent(event)!== false) { window.location.href='https://www.healthsherpa.com/?_agent_id=patrick-mackin-iv'; }">Check Eligibility Instantly</button>
 
   </div>
 
