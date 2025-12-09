@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: #ffffff;
+  max-width: 400px;
+  width: 90%;
+  margin-top: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.headshot {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 10px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin: 10px auto;
+}
+
+h1 {
+  font-size: 1.2em;
+  margin: 10px 0 20px;
+}
+
+.cta-buttons button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.cta-buttons button#chat-btn    { background-color: #0066cc; color: #fff; }
+.cta-buttons button#sms-btn     { background-color: #007bff; color: #fff; }
+.cta-buttons button#whatsapp-btn { background-color: #25d366; color: #fff; }
+.cta-buttons button#messenger-btn { background-color: #0084ff; color: #fff; }
+.cta-buttons button#call-btn    { background-color: #34b7f1; color: #fff; }
+
+.cta-buttons button:hover,
+.eligibility-btn:hover {
+  opacity: 0.9;
+}
+
+.cms-section {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.cms-section h2 {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.cms-section p {
+  font-size: 0.9em;
+  margin: 8px 0;
+}
+
+.cms-section .disclaimer {
+  font-size: 0.8em;
+  color: #555;
+}
+
+.consent {
+  display: flex;
+  align-items: flex-start;
+  margin: 15px 0;
+}
+
+.consent input {
+  margin-right: 8px;
+  transform: scale(1.2);
+}
+
+.eligibility-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.footer-note {
+  font-size: 0.75em;
+  color: #666;
+  margin-top: 15px;
+}
